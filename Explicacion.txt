@@ -1,0 +1,6 @@
+El código no funciona del todo.
+Ya que solo prueba un caso en que no se pueda construir un subtring con dicho string.
+No checa el caso general
+Por ejemplo:
+	Str = "fer" no funciona pues str + str = "ferfer" y al aplicar el método regresa falso.
+Por lo tanto no checa todos los casos y el método no es válido.
